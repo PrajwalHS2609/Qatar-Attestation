@@ -1,0 +1,188 @@
+.lpNavbar-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+}
+.lpLogo-container > img {
+  width: 100%;height: 100%;object-fit: cover;
+}
+.lpQatarMenu-container > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+.lpQatarMenu-container > ul > li {
+  list-style: none;
+  font-size: 18px;
+  }
+.lpQatarMenu-container > ul > li > a {
+  color: var(--lpQatar1);
+  text-decoration: none;
+}
+
+.lpQatarMenu-container > ul > li > a > button {
+  /* border: solid green; */
+  border: none;
+  width: 160px;
+  border-radius: 20px;
+  padding: 7px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: white;
+  background-color: #25d366;
+  box-shadow: 0 0 1px 8px #25d36572;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  transition: 300ms ease;
+  &:hover {
+    background-color: #3f4348;
+    box-shadow: 0 0 1px 8px #3f434874;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Hamburger icon - hidden on desktop */
+.lpQatarMenu-hamIcon {
+  display: none;
+  font-size: 28px;
+  color: var(--lpQatar1);
+  cursor: pointer;
+}
+
+/* Sidebar base styles */
+.lpQatarMenu-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 260px;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 9999;
+  padding: 30px 20px;
+}
+
+/* When sidebar is open */
+.lpQatarMenu-sidebar.open {
+  transform: translateX(0);
+}
+
+/* Sidebar header (title + close icon) */
+.lpQatarMenu-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.lpQatarMenu-closeIcon {
+  font-size: 24px;
+  color: var(--lpQatar1);
+  cursor: pointer;
+}
+
+/* Sidebar links */
+.lpQatarMenu-sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lpQatarMenu-sidebar-links li {
+  margin: 40px 0;
+}
+
+.lpQatarMenu-sidebar-links li a,
+.lpQatarMenu-sidebar-links li button {
+  color: var(--lpQatar1);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+.lpQatarMenu-sidebar-links li button {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: var(--lpQatar1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 300ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.lpQatarMenu-sidebar-links li button:hover {
+  background-color: #3f4348;
+  box-shadow: 0 0 1px 8px #3f434874;
+}
+.lpQatarMenu-ico {
+  color: white;
+  font-size: 25px;
+}
+.active-qatarLink {
+  background-color: var(--lpQatar1);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+.respButton {
+  list-style: none;
+  display: none;
+}
+.respButton > a {
+  text-decoration: none;
+}
+.respButton > a > button {
+  width: 150px;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #25d366;
+  color: white;
+  box-shadow: 0 0 1px 8px #25d36572;
+  border: none;
+  cursor: pointer;
+  transition: 300ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  transform: scale(.7);
+}
+/* Responsive rules */
+@media (min-width:320px) and (max-width:768px) {
+  .lpLogo-container > img {
+    width: 130px;
+  }
+  .lpQatarMenu-container > ul {
+    display: none;
+  }
+
+  .lpQatarMenu-hamIcon {
+    display: none;
+  }
+  .respButton {
+    display: block;
+  }
+}

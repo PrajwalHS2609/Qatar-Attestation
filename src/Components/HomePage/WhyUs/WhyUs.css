@@ -1,0 +1,282 @@
+.process-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.process-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.process-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.process-tag {
+  display: inline-flex;
+  align-items: center;
+  background: #fef3c7;
+  color: #92400e;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.process-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.process-header p {
+  font-size: 18px;
+  color: #4b5563;
+  margin: 0 auto;
+}
+
+.process-steps-wrapper {
+  position: relative;
+}
+
+.progress-line {
+  display: none;
+}
+
+.progress-line-active {
+  display: none;
+}
+/* 
+@media (min-width: 1024px) {
+  .progress-line,
+  .progress-line-active {
+    display: block;
+    position: absolute;
+    top: 64px; 
+    left: 0;
+    transform: none;
+    height: 2px;
+  }
+
+  .progress-line {
+    width: 100%;
+    background: #e5e7eb;
+  }
+
+  .progress-line-active {
+    background: #991b1b;
+    animation: pulse 2s infinite;
+  }
+} */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.process-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 100%;
+}
+
+/* @media (min-width: 768px) {
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .process-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+} */
+
+.process-step {
+  position: relative;
+}
+
+.process-card {
+  background: #fff;
+  border: 2px solid #f3f4f6;
+  border-radius: 12px;
+  padding: 20px;
+  transition: box-shadow 0.3s;
+  position: relative;
+  z-index: 10;
+  width: 250px;
+}
+
+.process-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.process-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.process-icon {
+  width: 64px;
+  height: 64px;
+  background: #991b1b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.process-step-number {
+  font-size: 14px;
+  font-weight: 700;
+  color: #991b1b;
+  background: #fef2f2;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.process-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.process-card p {
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+.process-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.process-detail {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.process-arrow {
+  display: none;
+}
+/* 
+@media (max-width: 768px) {
+  .process-arrow {
+    display: block;
+    position: absolute;
+    top: 48px;
+    right: -16px;
+    z-index: 20;
+  }
+} */
+
+.process-cta {
+  text-align: center;
+  margin-top: 64px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.process-cta h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.process-cta p {
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: #991b1b;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #7f1d1d;
+}
+
+.btn-secondary {
+  border: 1px solid #991b1b;
+  color: #991b1b;
+  padding: 12px 32px;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 20px;
+}
+
+.btn-secondary:hover {
+  background: #fef2f2;
+}
+
+/* Icon Sizes */
+.icon-small {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.icon-medium {
+  width: 50px;
+  height: 50px;
+}
+.icon-tiny {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  color: #22c55e;
+}
+.icon-arrow {
+  width: 24px;
+  height: 24px;
+  color: #991b1b;
+}
+.icon-arrow-btn {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+@media screen and (max-width: 768px) {
+}
