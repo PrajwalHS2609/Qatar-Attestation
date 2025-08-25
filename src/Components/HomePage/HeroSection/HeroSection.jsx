@@ -3,14 +3,14 @@ import { FiShield } from "react-icons/fi";
 import { GoArrowRight } from "react-icons/go";
 import "./HeroSection.css";
 import embassyLogo from "./../../../Images/QatarHeader.png";
+import  heroSectionImg from "./../../../Images/herosectionImg.jpg"
 import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="hero-section" id="home">
       <div className="coverImg">
-        <img
-          src="https://images.pexels.com/photos/3703813/pexels-photo-3703813.jpeg"
-          alt=""
+        <Image
+          src={heroSectionImg} alt="hero Section Img"
         />
       </div>
       <div className="container">
