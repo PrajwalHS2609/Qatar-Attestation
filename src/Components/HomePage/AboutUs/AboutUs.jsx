@@ -54,7 +54,7 @@ export default function AboutUs() {
               </div>
 
               <h2 className="about-heading">
-                Trusted Qatar Attestation Partner Since 2010
+                Your Trustworthy Partner in Qatar Certificate Attestation
               </h2>
 
               <p className="about-text">
