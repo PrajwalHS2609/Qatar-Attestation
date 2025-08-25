@@ -1,5 +1,4 @@
 .lpNavbar-container {
-  /* border: solid red; */
   width: 100%;
   height: 80px;
   display: flex;
@@ -12,50 +11,66 @@
   padding-right: 30px;
   background-color: white;
 }
+
+/* Logo */
 .lpLogo-container > img {
-  width: 100%;height: 100%;object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
+/* Desktop Menu */
 .lpQatarMenu-container > ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 50px;
 }
+
 .lpQatarMenu-container > ul > li {
   list-style: none;
   font-size: 18px;
-  }
+}
+
 .lpQatarMenu-container > ul > li > a {
   color: var(--lpQatar1);
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
+.lpQatarMenu-container > ul > li > a:hover {
+  color: #3f4348;
+}
+
+/* Desktop WhatsApp Button */
 .lpQatarMenu-container > ul > li > a > button {
-  /* border: solid green; */
   border: none;
-  width: 160px;
+  width: 200px;
   border-radius: 20px;
   padding: 7px;
-  letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   background-color: #25d366;
   box-shadow: 0 0 1px 8px #25d36572;
   cursor: pointer;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   gap: 10px;
   transition: 300ms ease;
-  &:hover {
-    background-color: #3f4348;
-    box-shadow: 0 0 1px 8px #3f434874;
-  }
 }
+
+.lpQatarMenu-container > ul > li > a > button:hover {
+  background-color: #3f4348;
+  box-shadow: 0 0 1px 8px #3f434874;
+}
+
+/* Scroll behavior */
 html {
   scroll-behavior: smooth;
 }
-/* Hamburger icon - hidden on desktop */
+
+/* Hamburger icon */
 .lpQatarMenu-hamIcon {
   display: none;
   font-size: 28px;
@@ -78,12 +93,12 @@ html {
   padding: 30px 20px;
 }
 
-/* When sidebar is open */
+/* Sidebar when open */
 .lpQatarMenu-sidebar.open {
   transform: translateX(0);
 }
 
-/* Sidebar header (title + close icon) */
+/* Sidebar header */
 .lpQatarMenu-sidebar-header {
   display: flex;
   justify-content: space-between;
@@ -136,25 +151,33 @@ html {
   background-color: #3f4348;
   box-shadow: 0 0 1px 8px #3f434874;
 }
+
+/* WhatsApp icon */
 .lpQatarMenu-ico {
   color: white;
   font-size: 25px;
 }
+
+/* Active Link */
 .active-qatarLink {
   background-color: var(--lpQatar1);
   color: white !important;
   padding: 8px 16px;
   border-radius: 20px;
 }
+
+/* Mobile WhatsApp button (separate from desktop one) */
 .respButton {
   list-style: none;
   display: none;
 }
+
 .respButton > a {
   text-decoration: none;
 }
+
 .respButton > a > button {
-  width: 150px;
+  width: 200px;
   border-radius: 20px;
   padding: 8px;
   background-color: #25d366;
@@ -168,20 +191,31 @@ html {
   align-items: center;
   gap: 10px;
   font-size: 18px;
-  transform: scale(.7);
+  transform: scale(0.9);
 }
+
+.respButton > a > button:hover {
+  background-color: #3f4348;
+  box-shadow: 0 0 1px 8px #3f434874;
+}
+
 /* Responsive rules */
-@media (min-width:320px) and (max-width:768px) {
+@media (max-width: 768px) {
   .lpLogo-container > img {
     width: 130px;
   }
+
+  /* Hide desktop nav */
   .lpQatarMenu-container > ul {
     display: none;
   }
 
+  /* Show hamburger */
   .lpQatarMenu-hamIcon {
-    display: none;
+    display: block;
   }
+
+  /* Show mobile WhatsApp button */
   .respButton {
     display: block;
   }

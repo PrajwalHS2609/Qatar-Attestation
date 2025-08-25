@@ -4,14 +4,21 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import Link from "next/link";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
+import { FaEnvelopeOpenText } from "react-icons/fa6";
 
+import Link from "next/link";
+import logo from "./../../Images/logo.png";
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-column">
-          <div class="footer-logo">Qatar Attestation</div>
+          <div class="footer-logo">
+            <Image src={logo} alt="logo" />
+          </div>
           <p class="footer-text">
             Your trusted partner for Qatar certificate attestation, offering
             reliable and efficient services for individuals and businesses.
@@ -66,18 +73,26 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div class="footer-column">
-          <h3 class="footer-heading">Contact</h3>
-          <ul class="footer-links">
+        <div className="footer-contactColumn">
+          <h3 className="footer-contactHeading">Contact</h3>
+          <ul className="footer-contactLinks">
             <li>
-              <a href="tel:+12345678900">+1 234 567 8900</a>
+              <FaPhoneAlt className="footer-icon" />
+              <a href="tel:+919148889666">+91 9148889666</a>
             </li>
             <li>
-              <a href="mailto:info@qatarattestation.com">
-                info@qatarattestation.com
+              <FaEnvelopeOpenText className="footer-icon" />
+              <a href="mailto:info@goodwayattestation.com">
+                info@goodwayattestation.com
               </a>
             </li>
-            <li>Doha, Qatar</li>
+            <li>
+              <IoLocationSharp className="footer-icon" />
+              <a href="#">
+                #134 (Shop No. 2), 1st Floor, K.N Complex, 11th Cross, Temple
+                Street, Opp. Canara Bank, Malleshwaram, Bengaluru - 560003
+              </a>
+            </li>
           </ul>
         </div>
       </div>
