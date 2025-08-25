@@ -58,16 +58,38 @@ export default function AboutUs() {
               </h2>
 
               <p className="about-text">
-                We are the leading Qatar document attestation service provider
-                with over a decade of experience. Our expertise, reliability,
-                and commitment to customer satisfaction have made us the
-                preferred choice for thousands of clients worldwide.
+                At Goodway Attestation, we pride ourselves on being a leading
+                expert in certificate attestation and apostille services. With
+                15+ years of experience and a team of dedicated professionals,
+                we've earned a reputation for delivering fast, efficient, and
+                reliable solutions.
+              </p>
+
+              <p className="about-text">
+                Our credentials speak for themselves: we're a REGISTERED and ISO
+                9001:2015 certified company, recognized by the Government and
+                various embassies. We specialize in attesting, authenticating,
+                and legalizing all types of certificates, including educational
+                and non-educational documents like marriage certificates, birth
+                certificates, and affidavits.
+              </p>
+              <p className="about-text">
+                What sets us apart? We guarantee 100% genuine attestation on all
+                certificates, and our competitive rates are unbeatable in the
+                market. Trust us to handle your attestation needs with
+                professionalism, precision, and a personalized touch. Let us
+                take care of the paperwork, so you can focus on what matters
+                most!
               </p>
             </div>
             <div className="about-stats">
               {stats.map((stat, index) => (
                 <div key={index} className="stat-card">
-                  <Image src={stat.icon} alt={stat.label} className="stat-icon" />
+                  <Image
+                    src={stat.icon}
+                    alt={stat.label}
+                    className="stat-icon"
+                  />
 
                   <div className="stat-number">{stat.number}</div>
                   <div className="stat-label">{stat.label}</div>
@@ -105,7 +127,7 @@ export default function AboutUs() {
           <div className="cta-buttons">
             <button className="btn-light">Free Consultation</button>
             <button className="btn-white-outline">
-            <a href="tel:9148889666">  Call Now: +91 9148889666</a>
+              <a href="tel:9148889666"> Call Now: +91 9148889666</a>
             </button>
           </div>
         </div>
