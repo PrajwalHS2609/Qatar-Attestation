@@ -62,13 +62,37 @@ const Footer = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">About</Link>
+              <Link href="/">About Us</Link>
             </li>
             <li>
               <Link href="/">Services</Link>
             </li>
             <li>
               <Link href="/">Contact</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className="footer-column">
+          <h3 className="footer-heading">Services</h3>
+          <ul className="footer-links">
+            <li>
+              <Link href="/">Educational Certificates</Link>
+            </li>
+            <li>
+              <Link href="/">Marriage Certificates</Link>
+            </li>
+            <li>
+              <Link href="/">Birth Certificates</Link>
+            </li>
+            <li>
+              <Link href="/">HRD Attestation</Link>
+            </li>
+            <li>
+              <Link href="/">Commercial Documents</Link>
+            </li>
+            <li>
+              <Link href="/">Legal Documents</Link>
             </li>
           </ul>
         </div>
