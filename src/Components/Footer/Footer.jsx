@@ -13,41 +13,41 @@ import logo from "./../../Images/logo.png";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-column">
-          <div class="footer-logo">
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-column">
+          <div className="footer-logo">
             <Image src={logo} alt="logo" />
           </div>
-          <p class="footer-text">
+          <p className="footer-text">
             Your trusted partner for Qatar certificate attestation, offering
             reliable and efficient services for individuals and businesses.
           </p>
-          <div class="social-icons">
+          <div className="social-icons">
             <a
               href="https://www.facebook.com/goodwayattestation"
-              class="social-link"
+              className="social-link"
               aria-label="Facebook"
             >
               <FaFacebook />
             </a>
             <a
               href="https://twitter.com/Goodway_India"
-              class="social-link"
+              className="social-link"
               aria-label="Twitter"
             >
               <FaXTwitter />
             </a>
             <a
               href="https://www.instagram.com/goodwayattestation.india/"
-              class="social-link"
+              className="social-link"
               aria-label="Instagram"
             >
               <FaInstagram />
             </a>
             <a
               href="https://www.linkedin.com/company/goodway-attestation/"
-              class="social-link"
+              className="social-link"
               aria-label="Indeed"
             >
               <FaLinkedin />
@@ -55,9 +55,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="footer-column">
-          <h3 class="footer-heading">Quick Links</h3>
-          <ul class="footer-links">
+        <div className="footer-column">
+          <h3 className="footer-heading">Quick Links</h3>
+          <ul className="footer-links">
             <li>
               <Link href="/">Home</Link>
             </li>

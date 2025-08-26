@@ -15,7 +15,7 @@ const Reviews = () => {
       <div className="qatarReviews-content">
         <iframe
           src="https://widgets.sociablekit.com/google-reviews/iframe/25569316"
-          frameborder="0"
+          frameBorder="0"
           width="100%"
           height="1000"
           title="lp qatar review"
