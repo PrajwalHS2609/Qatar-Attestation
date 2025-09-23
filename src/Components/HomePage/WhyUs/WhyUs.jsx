@@ -2,18 +2,18 @@ import React from "react";
 import "./WhyUs.css";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { GoArrowRight } from "react-icons/go";
-import care from "./../../../Images/LpWhyChoose/24X7.png"
-import efficiency from "./../../../Images/LpWhyChoose/efficiency.png"
-import expertise from "./../../../Images/LpWhyChoose/expertise.png"
-import govApprove from "./../../../Images/LpWhyChoose/govtAppov.png"
-import international from "./../../../Images/LpWhyChoose/international.png"
-import legal from "./../../../Images/LpWhyChoose/legal.png"
-import price from "./../../../Images/LpWhyChoose/pricing.png"
-import secure from "./../../../Images/LpWhyChoose/secure.png"
-import time from "./../../../Images/LpWhyChoose/timeDelivery.png"
-import track from "./../../../Images/LpWhyChoose/tracking.png"
-import transparent from "./../../../Images/LpWhyChoose/transparency.png"
-import trust from "./../../../Images/LpWhyChoose/trusted.png"
+import care from "./../../../Images/LpWhyChoose/24X7.png";
+import efficiency from "./../../../Images/LpWhyChoose/efficiency.png";
+import expertise from "./../../../Images/LpWhyChoose/expertise.png";
+import govApprove from "./../../../Images/LpWhyChoose/govtAppov.png";
+import international from "./../../../Images/LpWhyChoose/international.png";
+import legal from "./../../../Images/LpWhyChoose/legal.png";
+import price from "./../../../Images/LpWhyChoose/pricing.png";
+import secure from "./../../../Images/LpWhyChoose/secure.png";
+import time from "./../../../Images/LpWhyChoose/timeDelivery.png";
+import track from "./../../../Images/LpWhyChoose/tracking.png";
+import transparent from "./../../../Images/LpWhyChoose/transparency.png";
+import trust from "./../../../Images/LpWhyChoose/trusted.png";
 import Image from "next/image";
 
 const WhyUs = () => {
@@ -116,15 +116,15 @@ const WhyUs = () => {
                 <div className="process-card">
                   <div className="process-card-top">
                     <div className="process-icon">
-                      <Image src={step.icon} className="icon-medium" alt={step.title}/>
-                    </div>
-                    <div className="process-step-number">
-                      {/* Step {index + 1} */}
+                      <Image
+                        src={step.icon}
+                        className="icon-medium"
+                        alt={step.title}
+                      />
                     </div>
                   </div>
 
                   <h3>{step.title}</h3>
-                  <p>{step.description}</p>
 
                   <div className="process-details">
                     {/* {step.details.map((detail, idx) => (

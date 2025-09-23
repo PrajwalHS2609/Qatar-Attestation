@@ -12,9 +12,20 @@
   text-align: center;
   margin-bottom: 64px;
 }
-
+.process-step {
+  /* border: solid green; */
+  height: 200px;
+}
+.process-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgb(205, 205, 205);
+  height: 100%;
+}
 .process-tag {
-  display: inline-flex;
+  display: none;
   align-items: center;
   background: #fef3c7;
   color: #92400e;
@@ -29,7 +40,6 @@
   font-size: 36px;
   font-weight: 700;
   color: #111827;
-  margin-bottom: 16px;
 }
 
 .process-header p {
@@ -153,6 +163,8 @@
   font-weight: 600;
   color: #111827;
   margin-bottom: 12px;
+  text-align: center;
+  width: 100%;
 }
 
 .process-card p {
