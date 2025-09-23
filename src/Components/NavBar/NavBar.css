@@ -43,7 +43,7 @@
 }
 
 .lpQatarMenu-container > ul > li > a {
-  color: var(--lpQatar1);
+  color: var(--customColor1);
   text-decoration: none;
   padding: 8px 12px;
   transition: all 0.3s ease;
@@ -51,13 +51,13 @@
 }
 
 .lpQatarMenu-container > ul > li > a:hover {
-  background-color: var(--lpQatar1);
+  background-color: var(--customColor1);
   color: #fff;
 }
 
 /* ===== ACTIVE LINK ===== */
 .active-qatarLink {
-  background-color: var(--lpQatar1);
+  background-color: var(--customColor1);
   color: #fff !important;
   border-radius: 6px;
 }
@@ -107,7 +107,7 @@
 }
 
 .menuDropDown > ul > li > a:hover {
-  background-color: var(--lpQatar1);
+  background-color: var(--customColor1);
   color: #fff;
 }
 
@@ -143,7 +143,7 @@
 .lpQatarMenu-hamIcon {
   display: none;
   font-size: 28px;
-  color: var(--lpQatar1);
+  color: var(--customColor1);
   cursor: pointer;
 }
 
@@ -175,7 +175,7 @@
 
 .lpQatarMenu-closeIcon {
   font-size: 24px;
-  color: var(--lpQatar1);
+  color: var(--customColor1);
   cursor: pointer;
 }
 
@@ -200,7 +200,7 @@
 }
 .respDropdown-serviceIco {
   font-size: 30px;
-  color: var(--lpQatar1);
+  color: var(--customColor1);
 }
 .mobile-services {
   display: flex;
@@ -229,7 +229,7 @@
 
 .lpQatarMenu-sidebar-links li a,
 .lpQatarMenu-sidebar-links li button {
-  color: var(--lpQatar1);
+  color: var(--customColor1);
   text-decoration: none;
   font-weight: 600;
   font-size: 17px;

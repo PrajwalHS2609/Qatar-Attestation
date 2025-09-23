@@ -4,9 +4,7 @@
   justify-content: center; /* Left info smaller, right form bigger */
   gap: 2rem;
   padding: 3rem;
-  background: #f3f4f6; /* Light gray background */
   border-radius: 1rem;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
   /* border: solid red; */
 }
 
@@ -38,6 +36,10 @@
   font-size: 1rem;
   margin-bottom: 1.2rem;
   transition: transform 0.2s ease;
+}
+.info-item>a{
+  text-decoration: none;
+  color: white;
 }
 
 .info-item:hover {

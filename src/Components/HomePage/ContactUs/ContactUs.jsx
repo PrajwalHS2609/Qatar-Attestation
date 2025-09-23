@@ -10,15 +10,19 @@ const ContactUs = () => {
       <div className="contact-info">
         <h3 className="info-title">Contact Us</h3>
         <p className="info-item">
-          <FaPhoneAlt className="info-icon" /> +91 9148889666 , +91 9148889444
+          <FaPhoneAlt className="info-icon" />{" "}
+          <a href="tel:9148889666">+91 9148889666</a> ,{" "}
+          <a href="tel:9148889444">+91 9148889444</a>
         </p>
         <p className="info-item">
           <FaEnvelope className="info-icon" /> info@goodwayattestation.com
         </p>
         <p className="info-item">
-          <FaMapMarkerAlt className="info-icon" /><span>#134 (Shop No. 2), 1st Floor,
-          K.N Complex, 11th Cross, Temple Street, Opp. Canara Bank,
-          Malleshwaram, Bengaluru - 560003</span>
+          <FaMapMarkerAlt className="info-icon" />
+          <span>
+            #134 (Shop No. 2), 1st Floor, K.N Complex, 11th Cross, Temple
+            Street, Opp. Canara Bank, Malleshwaram, Bengaluru - 560003
+          </span>
         </p>
       </div>
 

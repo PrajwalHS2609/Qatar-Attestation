@@ -119,8 +119,8 @@
 }
 
 .headerctabtn-outlines:hover {
-  border: 1px solid var(--lpQatar1);
-  background: var(--lpQatar1);
+  border: 1px solid var(--customColor1);
+  background: var(--customColor1);
 }
 
 .features {
@@ -311,5 +311,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .hero-title{
+    text-align: center;
   }
 }

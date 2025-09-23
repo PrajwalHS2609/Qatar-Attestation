@@ -3,15 +3,13 @@ import { FiShield } from "react-icons/fi";
 import { GoArrowRight } from "react-icons/go";
 import "./HeroSection.css";
 import embassyLogo from "./../../../Images/QatarHeader.png";
-import  heroSectionImg from "./../../../Images/herosectionImg.jpg"
+import heroSectionImg from "./../../../Images/herosectionImg.jpg";
 import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="hero-section" id="home">
       <div className="coverImg">
-        <Image
-          src={heroSectionImg} alt="hero Section Img"
-        />
+        <Image src={heroSectionImg} alt="hero Section Img" />
       </div>
       <div className="container">
         <div className="hero-grid">
@@ -35,10 +33,12 @@ const HeroSection = () => {
 
             <div className="headercta-buttons">
               <button className="headerctabtn-primary">
-                Start Your Attestation
+                Talk to Expert
                 <GoArrowRight className="icon arrow" />
               </button>
-              <button className="headerctabtn-outlines">View Services</button>
+              <a href="tel:9148889444">
+                <button className="headerctabtn-outlines">Call Now</button>
+              </a>
             </div>
 
             <div className="features">

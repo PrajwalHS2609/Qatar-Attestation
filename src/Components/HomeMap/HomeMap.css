@@ -1,0 +1,10 @@
+.homeMap-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+}
+.homeMap-container > iframe {
+  width: 100%;
+  height: 100%;
+}

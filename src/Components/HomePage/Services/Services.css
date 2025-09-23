@@ -1,6 +1,5 @@
 .services-section {
   padding: 5rem 0;
-  background: #f9fafb; /* gray-50 */
 }
 
 .section-header {
@@ -168,7 +167,7 @@
 }
 .iconServiceLarge{
     font-size: 40px;
-    color: var(--lpQatar1);
+    color: var(--customColor1);
 }
 /* Buttons */
 .btn-primary {

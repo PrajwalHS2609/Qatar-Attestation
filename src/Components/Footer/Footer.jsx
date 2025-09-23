@@ -102,7 +102,8 @@ const Footer = () => {
           <ul className="footer-contactLinks">
             <li>
               <FaPhoneAlt className="footer-icon" />
-              <a href="tel:+919148889666">+91 9148889666</a>
+              <a href="tel:+9148889666">+91 9148889666</a>
+              <a href="tel:+9148889444">+91 9148889444</a>
             </li>
             <li>
               <FaEnvelopeOpenText className="footer-icon" />

@@ -1,8 +1,9 @@
 /* Section wrapper */
 .about-section {
   padding: 80px 20px;
-  background-color: #f9fafb;
   /* border: solid; */
+    background-color: var(--customBg);
+
 }
 
 .about-container {
@@ -255,6 +256,11 @@
     /* border: solid blue; */
     flex-direction: column;
   }
+  .about-heading>h2{
+    text-align: center;
+    width: 100%;
+
+  }
   .about-section {
     padding: 20px;
   }
@@ -276,11 +282,5 @@
     gap: 30px;
     margin-bottom: 32px;
   }
-  .about-heading {
-    font-size: 30px;
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 24px;
-    width: 100%;
-  }
+
 }

@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   const stats = [
-    { icon: exp, number: "16", label: "YEARS OF EXPERIENCE" },
+    { icon: exp, number: "16 +", label: "YEARS OF EXPERIENCE" },
     { icon: docs, number: "4LAKH+", label: "DOCUMENTS  PROCESSED" },
     { icon: govt, number: "100%", label: "GOVT APPROVED AND ISO CERTIFIED" },
     { icon: trust, number: "25000+", label: "TRUSTED CUSTOMERS" },
@@ -60,7 +60,7 @@ export default function AboutUs() {
               <p className="about-text">
                 At Goodway Attestation, we pride ourselves on being a leading
                 expert in certificate attestation and apostille services. With
-                15+ years of experience and a team of dedicated professionals,
+                16+ years of experience and a team of dedicated professionals,
                 we've earned a reputation for delivering fast, efficient, and
                 reliable solutions.
               </p>
