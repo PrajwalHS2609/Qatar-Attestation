@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { FiShield } from "react-icons/fi";
 import { GoArrowRight } from "react-icons/go";
@@ -6,6 +7,9 @@ import embassyLogo from "./../../../Images/QatarHeader.png";
 import heroSectionImg from "./../../../Images/herosectionImg.jpg";
 import Image from "next/image";
 const HeroSection = () => {
+    const handlePop = () => {
+    document.querySelector(".popup-container").style.display = "flex";
+  };
   return (
     <section className="hero-section" id="home">
       <div className="coverImg">
@@ -32,7 +36,7 @@ const HeroSection = () => {
             </p>
 
             <div className="headercta-buttons">
-              <button className="headerctabtn-primary">
+              <button className="headerctabtn-primary" onClick={handlePop}>
                 Talk to Expert
                 <GoArrowRight className="icon arrow" />
               </button>
