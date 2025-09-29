@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="footer-column">
+        {/* <div className="footer-column">
           <h3 className="footer-heading">Quick Links</h3>
           <ul className="footer-links">
             <li>
@@ -71,9 +71,9 @@ const Footer = () => {
               <Link href="/">Contact</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
-        <div className="footer-column">
+        {/* <div className="footer-column">
           <h3 className="footer-heading">Services</h3>
           <ul className="footer-links">
             <li>
@@ -95,7 +95,7 @@ const Footer = () => {
               <Link href="/">Legal Documents</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="footer-contactColumn">
           <h3 className="footer-contactHeading">Contact</h3>

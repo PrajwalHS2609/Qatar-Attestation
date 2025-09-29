@@ -60,6 +60,7 @@
   background-color: var(--customColor1);
   color: #fff !important;
   border-radius: 6px;
+  padding: 10px;
 }
 
 /* ===== DROPDOWN MENU ===== */
@@ -112,7 +113,10 @@
 }
 
 /* ===== WHATSAPP BUTTON (DESKTOP) ===== */
-.lpQatarMenu-container > ul > li > a > button {
+.lpQatarMenu-container > ul > a {
+  text-decoration: none;
+}
+.lpQatarMenu-container > ul > a > button {
   border: none;
   min-width: 180px;
   border-radius: 25px;
@@ -130,7 +134,7 @@
   transition: all 0.3s ease;
 }
 
-.lpQatarMenu-container > ul > li > a > button:hover {
+.lpQatarMenu-container > ul > a > button:hover {
   background-color: #1da955;
   box-shadow: 0 0 10px rgba(29, 169, 85, 0.5);
 }

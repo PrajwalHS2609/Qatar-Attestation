@@ -9,3 +9,6 @@
   --customColor1:#991b1b;
   --customBg:#fbfbfbab;
 }
+html {
+  scroll-behavior: smooth;
+}

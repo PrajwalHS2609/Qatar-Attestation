@@ -26,7 +26,7 @@ const Menu = () => {
         <ul className="lpQatarMenu-list">
           <li>
             <Link
-              href="/"
+              href="#home"
               className={activeSection === "/" ? "active-qatarLink" : ""}
               onClick={() => handleSectionClick("/")}
             >
@@ -35,7 +35,7 @@ const Menu = () => {
           </li>
           <li className="services">
             <Link
-              href="/services"
+              href="#services"
               className={
                 activeSection === "/services" ? "active-qatarLink" : ""
               }
@@ -43,20 +43,32 @@ const Menu = () => {
             >
               Services
             </Link>
-            <div className="menuDropDown">
+            {/* <div className="menuDropDown">
               <ul>
-                <li><Link href={"/"}>Educational Certificates</Link></li>
-                <li><Link href={"/"}>Marriage Certificates</Link></li>
-                <li><Link href={"/"}>Birth Certificates</Link></li>
-                <li><Link href={"/"}>HRD Attestation</Link></li>
-                <li><Link href={"/"}>Commercial Documents</Link></li>
-                <li><Link href={"/"}>Legal Documents</Link></li>
+                <li>
+                  <Link href={"/"}>Educational Certificates</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Marriage Certificates</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Birth Certificates</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>HRD Attestation</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Commercial Documents</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Legal Documents</Link>
+                </li>
               </ul>
-            </div>
+            </div> */}
           </li>
           <li>
             <Link
-              href="/aboutus"
+              href="#aboutus"
               className={activeSection === "/aboutus" ? "active-qatarLink" : ""}
               onClick={() => handleSectionClick("/aboutus")}
             >
@@ -65,21 +77,19 @@ const Menu = () => {
           </li>
           <li>
             <Link
-              href="/why"
+              href="#contact-us"
               className={activeSection === "/why" ? "active-qatarLink" : ""}
               onClick={() => handleSectionClick("/why")}
             >
               Contact Us
             </Link>
           </li>
-          <li>
-            <a href="https://api.whatsapp.com/send?phone=919148889444">
-              <button>
-                <FaWhatsapp className="lpQatarMenu-ico" />
-                Message Me
-              </button>
-            </a>
-          </li>
+          <a href="https://api.whatsapp.com/send?phone=919148889444">
+            <button>
+              <FaWhatsapp className="lpQatarMenu-ico" />
+              Message Me
+            </button>
+          </a>
         </ul>
 
         {/* Hamburger icon (mobile only) */}
@@ -95,63 +105,73 @@ const Menu = () => {
         <ul className="lpQatarMenu-sidebar-links">
           <li>
             <Link
-              href="/"
-              className={activeSection === "/" ? "active-qatarLink" : ""}
-              onClick={() => handleSectionClick("/")}
+              href="#home"
+              className={activeSection === "#home" ? "active-qatarLink" : ""}
+              onClick={() => handleSectionClick("#home")}
             >
               Home
             </Link>
           </li>
           {/* MOBILE DROPDOWN SERVICES */}
-          <li
-            className={`mobile-services ${mobileServicesOpen ? "open" : ""}`}
-          >
+          <li className={`mobile-services ${mobileServicesOpen ? "open" : ""}`}>
             <div
               className="mobile-services-header"
               onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
             >
               <Link
-                href="/services"
+                href="#services"
                 className={
-                  activeSection === "/services" ? "active-qatarLink" : ""
+                  activeSection === "#services" ? "active-qatarLink" : ""
                 }
-                onClick={() => handleSectionClick("/services")}
+                onClick={() => handleSectionClick("#services")}
               >
                 Services
               </Link>
-              <MdKeyboardArrowDown
+              {/* <MdKeyboardArrowDown
                 className={`respDropdown-serviceIco ${
                   mobileServicesOpen ? "rotate" : ""
                 }`}
-              />
+              /> */}
             </div>
 
-            {mobileServicesOpen && (
+            {/* {mobileServicesOpen && (
               <ul className="mobile-submenu">
-                <li><Link href={"/"}>Educational Certificates</Link></li>
-                <li><Link href={"/"}>Marriage Certificates</Link></li>
-                <li><Link href={"/"}>Birth Certificates</Link></li>
-                <li><Link href={"/"}>HRD Attestation</Link></li>
-                <li><Link href={"/"}>Commercial Documents</Link></li>
-                <li><Link href={"/"}>Legal Documents</Link></li>
+                <li>
+                  <Link href={"/"}>Educational Certificates</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Marriage Certificates</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Birth Certificates</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>HRD Attestation</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Commercial Documents</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Legal Documents</Link>
+                </li>
               </ul>
-            )}
+            )} */}
           </li>
 
           <li>
             <Link
-              href="/aboutus"
-              className={activeSection === "/aboutus" ? "active-qatarLink" : ""}
-              onClick={() => handleSectionClick("/aboutus")}
+              href="#aboutus"
+              className={activeSection === "#aboutus" ? "active-qatarLink" : ""}
+              onClick={() => handleSectionClick("#aboutus")}
             >
               About Us
             </Link>
           </li>
           <li>
             <Link
-              href="/why"
-              className={activeSection === "/why" ? "active-qatarLink" : ""}
-              onClick={() => handleSectionClick("/why")}
+              href="#contact-us"
+              className={activeSection === "#contact-us" ? "active-qatarLink" : ""}
+              onClick={() => handleSectionClick("#contact-us")}
             >
               Contact Us
             </Link>

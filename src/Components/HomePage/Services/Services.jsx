@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import "./Services.css";
 import { FaUserGraduate } from "react-icons/fa";
@@ -10,6 +11,9 @@ import { FaStar } from "react-icons/fa";
 import { FaClock } from "react-icons/fa6";
 
 const Services = () => {
+  const handlePop = () => {
+    document.querySelector(".popup-container").style.display = "flex";
+  };
   const services = [
     {
       icon: FaUserGraduate,
@@ -50,7 +54,7 @@ const Services = () => {
         "Child Documents",
         "Age Proof",
       ],
-    //   price: "From $79",
+      //   price: "From $79",
       time: "1-2 Days",
     },
     {
@@ -136,7 +140,9 @@ const Services = () => {
                   ))}
                 </div>
 
-                <button className="btn-primary w-full">Get Started</button>
+                <button className="btn-primary w-full" onClick={handlePop}>
+                  Get Started
+                </button>
               </div>
             </div>
           ))}
