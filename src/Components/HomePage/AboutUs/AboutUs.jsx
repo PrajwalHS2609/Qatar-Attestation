@@ -42,7 +42,7 @@ export default function AboutUs() {
   //   },
   // ];
   return (
-    <section id="aboutus" className="about-section">
+    <section id="about-us" className="about-section">
       <div className="about-container">
         <div className="about-grid">
           {/* LEFT SIDE */}

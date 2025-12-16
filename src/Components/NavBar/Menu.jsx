@@ -27,8 +27,8 @@ const Menu = () => {
           <li>
             <Link
               href="#home"
-              className={activeSection === "/" ? "active-qatarLink" : ""}
-              onClick={() => handleSectionClick("/")}
+              className={activeSection === "#home" ? "active-qatarLink" : ""}
+              onClick={() => handleSectionClick("#home")}
             >
               Home
             </Link>
@@ -37,9 +37,9 @@ const Menu = () => {
             <Link
               href="#services"
               className={
-                activeSection === "/services" ? "active-qatarLink" : ""
+                activeSection === "#services" ? "active-qatarLink" : ""
               }
-              onClick={() => handleSectionClick("/services")}
+              onClick={() => handleSectionClick("#services")}
             >
               Services
             </Link>
@@ -68,9 +68,9 @@ const Menu = () => {
           </li>
           <li>
             <Link
-              href="#aboutus"
-              className={activeSection === "/aboutus" ? "active-qatarLink" : ""}
-              onClick={() => handleSectionClick("/aboutus")}
+              href="#about-us"
+              className={activeSection === "#about-us" ? "active-qatarLink" : ""}
+              onClick={() => handleSectionClick("#about-us")}
             >
               About Us
             </Link>
@@ -78,8 +78,8 @@ const Menu = () => {
           <li>
             <Link
               href="#contact-us"
-              className={activeSection === "/why" ? "active-qatarLink" : ""}
-              onClick={() => handleSectionClick("/why")}
+              className={activeSection === "#contact-us" ? "active-qatarLink" : ""}
+              onClick={() => handleSectionClick("#contact-us")}
             >
               Contact Us
             </Link>

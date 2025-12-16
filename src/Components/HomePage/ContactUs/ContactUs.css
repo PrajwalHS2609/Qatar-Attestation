@@ -54,7 +54,10 @@
 .info-item > span {
   width: 300px;
 }
-
+.info-item>span>a{
+  text-decoration: none;
+  color: white;
+}
 /* ====== Right Section - Form ====== */
 .contact-form-box {
   background-color: #ffffff;

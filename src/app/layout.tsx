@@ -2,6 +2,7 @@ import "./globals.css";
 import NavBar from "./../Components/NavBar/NavBar";
 import Footer from "@/Components/Footer/Footer";
 import PopUp from './../Components/PopUp/PopUp';
+import Whatsapp from './../Components/Whatsapp/Whatsapp';
 
 export default function RootLayout({
   children,
@@ -22,6 +23,7 @@ export default function RootLayout({
         {children}
         <PopUp/>
         <Footer />
+        <Whatsapp/>
       </body>
     </html>
   );

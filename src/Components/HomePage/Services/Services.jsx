@@ -150,7 +150,7 @@ const Services = () => {
 
         <div className="services-footer">
           <p>Need attestation for other documents?</p>
-          <button className="btn-outline">Request Custom Quote</button>
+          <button className="btn-outline" onClick={handlePop}>Request Custom Quote</button>
         </div>
       </div>
     </section>

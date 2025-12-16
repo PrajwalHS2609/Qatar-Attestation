@@ -113,7 +113,7 @@ const Footer = () => {
             </li>
             <li>
               <IoLocationSharp className="footer-icon" />
-              <a href="#">
+              <a href="https://maps.app.goo.gl/ttkcb8w8fSW8AHTH9">
                 #134 (Shop No. 2), 1st Floor, K.N Complex, 11th Cross, Temple
                 Street, Opp. Canara Bank, Malleshwaram, Bengaluru - 560003
               </a>
