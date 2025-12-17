@@ -1,8 +1,8 @@
 import "./globals.css";
 import NavBar from "./../Components/NavBar/NavBar";
 import Footer from "@/Components/Footer/Footer";
-import PopUp from './../Components/PopUp/PopUp';
-import Whatsapp from './../Components/Whatsapp/Whatsapp';
+import PopUp from "./../Components/PopUp/PopUp";
+import Whatsapp from "./../Components/Whatsapp/Whatsapp";
 
 export default function RootLayout({
   children,
@@ -16,14 +16,19 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
+        <meta
+          name="google-site-verification"
+          content="RrHWWc_n8gCcFEkE5vpcO_OP-66mmYBPPrcC_Z5Yln8"
+        />
+
         <link rel="icon" type="image/png" href="./goodWayFavicon.ico" />
       </head>
       <body>
         <NavBar />
         {children}
-        <PopUp/>
+        <PopUp />
         <Footer />
-        <Whatsapp/>
+        <Whatsapp />
       </body>
     </html>
   );
