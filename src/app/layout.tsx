@@ -16,7 +16,7 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-
+<meta name="google-site-verification" content="YJNyWVemEAUeqSBuf1p5P1xqaEvS0DdzFon8TI_ppUw" />
 
         <link rel="icon" type="image/png" href="./goodWayFavicon.ico" />
       </head>
