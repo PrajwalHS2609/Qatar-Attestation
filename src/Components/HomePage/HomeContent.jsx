@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import "@/Components/style.css";
 const HomeContent = () => {
   const [expanded, setExpanded] = useState(false);
 

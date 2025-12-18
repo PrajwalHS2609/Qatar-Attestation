@@ -10,10 +10,14 @@ const HomeHeaderContent = () => {
           <p>
             {" "}
             If you are planning to work, pursue higher education, start a
-            business, or relocate to Qatar, completing <a href="https://qatarattestationbangalore.com/"> Qatar Attestation in
-            Bangalore</a> is a mandatory legal requirement. Attestation ensures that
-            your Indian-issued documents are officially recognized and accepted
-            by authorities in Qatar for employment, education, residency, or
+            business, or relocate to Qatar, completing{" "}
+            <a href="https://qatarattestationbangalore.com/">
+              {" "}
+              Qatar Attestation in Bangalore
+            </a>{" "}
+            is a mandatory legal requirement. Attestation ensures that your
+            Indian-issued documents are officially recognized and accepted by
+            authorities in Qatar for employment, education, residency, or
             commercial purposes. Without proper attestation, documents may be
             rejected, leading to delays or complications in visa processing and
             approvals.
@@ -39,12 +43,15 @@ const HomeHeaderContent = () => {
             delivery.
           </p>
           <p>
-            We provide <a href="https://qatarattestationbangalore.com/">comprehensive Qatar Attestation in Bangalore</a> for all
-            types of documents, including Educational Certificates (degree,
-            diploma, and academic records), Personal Certificates (birth,
-            marriage, PCC, and related documents), and Commercial Certificates
-            (business, legal, and trade-related documents). Each document is
-            handled with strict confidentiality and care.
+            We provide{" "}
+            <a href="https://qatarattestationbangalore.com/">
+              comprehensive Qatar Attestation in Bangalore
+            </a>{" "}
+            for all types of documents, including Educational Certificates
+            (degree, diploma, and academic records), Personal Certificates
+            (birth, marriage, PCC, and related documents), and Commercial
+            Certificates (business, legal, and trade-related documents). Each
+            document is handled with strict confidentiality and care.
           </p>
           <p>
             Our attestation process strictly follows the latest guidelines
@@ -56,29 +63,31 @@ const HomeHeaderContent = () => {
           </p>
           <p>
             With dedicated support, secure document handling, and real-time
-            updates, Goodway Attestation remains the preferred choice for <a href="https://qatarattestationbangalore.com/">Qatar
-            Attestation in Bangalore</a>. Whether you are an individual professional
-            or a corporate client, we are committed to making your attestation
-            process simple, reliable, and hassle-free.
+            updates, Goodway Attestation remains the preferred choice for{" "}
+            <a href="https://qatarattestationbangalore.com/">
+              Qatar Attestation in Bangalore
+            </a>
+            . Whether you are an individual professional or a corporate client,
+            we are committed to making your attestation process simple,
+            reliable, and hassle-free.
           </p>
         </div>
         <div className="highlight-section">
           {/* Duration Highlight */}
           <div className="highlight-card">
-            <h3>🚀 Duration – UAE Attestation in Just 5 Days</h3>
+            <h3>🚀Duration – Qatar Attestation in Just 5 Days</h3>
             <ul>
               <li>
                 <strong>Standard Processing Time:</strong> 5 Working Days
               </li>
               <li className="note">
-                (Duration may vary depending on document type & issuing
+                • (Timeline may vary based on document type and issuing
                 authority)
               </li>
             </ul>
             <p>
-              Our strong coordination with government departments and 16+ years
-              of experience ensure faster turnaround with{" "}
-              <strong>guaranteed delivery</strong>.
+              With 16 years of expertise, we ensure fast turnaround with
+              guaranteed delivery.
             </p>
           </div>
 
@@ -87,13 +96,11 @@ const HomeHeaderContent = () => {
             <h3>⚡ 1-Hour Document Collection across Bangalore</h3>
             <p>
               We offer express document pickup within <strong>1 hour</strong>{" "}
-              from 60+ localities, including:
+              from 60+ localities, including: <br /> Whitefield, Electronic
+              City, Marathahalli, Bellandur, Indiranagar, Jayanagar, Yelahanka,
+              Rajajinagar, Hebbal, Malleshwaram, BTM, HSR, Banashankari & more.
             </p>
-            <p className="locations">
-              Whitefield, Electronic City, Marathahalli, Bellandur, Indiranagar,
-              Jayanagar, Yelahanka, Rajajinagar, Hebbal, Malleshwaram, BTM, HSR,
-              Banashankari & more.
-            </p>
+            <p className="locations"></p>
             <p className="highlight-text">
               No travel. No waiting. Complete convenience.
             </p>
