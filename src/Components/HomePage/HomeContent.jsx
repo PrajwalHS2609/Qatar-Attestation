@@ -154,7 +154,7 @@ const HomeContent = () => {
                     <td>⚠ Partial</td>
                   </tr>
                   <tr>
-                    <td>MEA & UAE Compliance </td>
+                    <td>MEA & Embassy Compliance </td>
                     <td>✅ Full</td>
                     <td>❌ Unclear</td>
                     <td>⚠ Limited</td>

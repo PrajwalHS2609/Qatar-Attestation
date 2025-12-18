@@ -115,7 +115,7 @@ const HomeHeaderContent = () => {
             {[
               "16 Years of Process Expertise",
               "Government Approved Attestation Agency",
-              "Authorized by MEA & UAE Authorities",
+              "Authorized by MEA & Qatar Authorities",
               "Trusted by 12,000+ Happy Customers",
               "Exclusive Partner of 28+ Top Indian MNCs in Bangalore",
               "Secure Document Handling & Confidentiality",
