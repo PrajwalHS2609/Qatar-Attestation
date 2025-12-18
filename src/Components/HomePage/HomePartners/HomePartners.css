@@ -4,8 +4,7 @@
   align-items: center;
   flex-direction: column;
   padding: 20px;
-      background-color: var(--customBg);
-
+  background-color: var(--customBg);
 }
 
 .homePartnerHead-container {
@@ -14,12 +13,8 @@
 }
 .homePartnerHead-container > h2 {
   font-size: 36px;
-  color: var(--customColor2);
+  font-weight: bold;
 }
-.homePartnerHead-container > h2 > span {
-  color: var(--customColor1);
-}
-
 
 .homePartnersCard {
   /* border: solid red; */
@@ -55,16 +50,16 @@
   height: 100%;
   object-fit: cover;
 }
-@media screen and (max-width:768px) {
-    .homePartnersCardContent {
+@media screen and (max-width: 768px) {
+  .homePartnersCardContent {
     /* border: solid blue; */
     width: 100%;
   }
   .homePartnersCardItem {
-  /* border: solid green; */
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-  margin-left: 25%;
-}
+    /* border: solid green; */
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: 25%;
+  }
 }

@@ -8,11 +8,15 @@ import HomeCounter from "./../Components/HomePage/HomeCounter/HomeCounter";
 import HomePartners from "./../Components/HomePage/HomePartners/HomePartners";
 import HomeMap from "./../Components/HomeMap/HomeMap";
 import HomeSeoContents from "./../Components/HomePage/HomeSeoContents/HomeSeoContents";
+import HomeContent from "./../Components/HomePage/HomeContent";
+import HomeHeaderContent from "./../Components/HomePage/HomeHeaderContent";
+import HomeFaq from "./../Components/HomePage/HomeFaq/HomeFaq";
 
 export default function HomePage() {
   return (
     <div>
       <HeroSection />
+      <HomeHeaderContent />
       <Services />
       <AboutUs />
       <WhyUs />
@@ -21,7 +25,9 @@ export default function HomePage() {
       <HomePartners />
       <Reviews />
       <HomeSeoContents />
+      <HomeFaq />
       <HomeMap />
+      <HomeContent />
     </div>
   );
 }
