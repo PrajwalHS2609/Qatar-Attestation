@@ -102,7 +102,7 @@ const HomeContent = () => {
             </div>
             <div className="content-table-container">
               <div className="content-table-heading">
-                <h2>UAE Attestation Charges in Bangalore</h2>
+                <h2>Qatar Attestation Charges in Bangalore</h2>
                 <h3>Price Starts from ₹5,000 to ₹15,000</h3>
               </div>
               <table className="content-table">
