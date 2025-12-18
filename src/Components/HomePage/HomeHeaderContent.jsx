@@ -10,7 +10,7 @@ const HomeHeaderContent = () => {
           <p>
             {" "}
             If you are planning to work, pursue higher education, start a
-            business, or relocate to Qatar, completing <a href=""> Qatar Attestation in
+            business, or relocate to Qatar, completing <a href="https://qatarattestationbangalore.com/"> Qatar Attestation in
             Bangalore</a> is a mandatory legal requirement. Attestation ensures that
             your Indian-issued documents are officially recognized and accepted
             by authorities in Qatar for employment, education, residency, or
@@ -39,7 +39,7 @@ const HomeHeaderContent = () => {
             delivery.
           </p>
           <p>
-            We provide <a href="">comprehensive Qatar Attestation in Bangalore</a> for all
+            We provide <a href="https://qatarattestationbangalore.com/">comprehensive Qatar Attestation in Bangalore</a> for all
             types of documents, including Educational Certificates (degree,
             diploma, and academic records), Personal Certificates (birth,
             marriage, PCC, and related documents), and Commercial Certificates
@@ -56,7 +56,7 @@ const HomeHeaderContent = () => {
           </p>
           <p>
             With dedicated support, secure document handling, and real-time
-            updates, Goodway Attestation remains the preferred choice for <a href="">Qatar
+            updates, Goodway Attestation remains the preferred choice for <a href="https://qatarattestationbangalore.com/">Qatar
             Attestation in Bangalore</a>. Whether you are an individual professional
             or a corporate client, we are committed to making your attestation
             process simple, reliable, and hassle-free.

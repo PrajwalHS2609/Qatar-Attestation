@@ -12,6 +12,24 @@ import HomeContent from "./../Components/HomePage/HomeContent";
 import HomeHeaderContent from "./../Components/HomePage/HomeHeaderContent";
 import HomeFaq from "./../Components/HomePage/HomeFaq/HomeFaq";
 
+export const metadata = {
+  title:
+    "Qatar Attestation in Bangalore at Best Price – 1Hr Documents Collection",
+  description:
+    "Qatar Attestation in Bangalore at Best Price. If you are planning to work, study, start a business, or move your family to the Qatar. Call Now! ",
+  alternates: {
+    canonical: "https://qatarattestationbangalore.com/",
+  },
+
+  keywords: [
+    "Qatar attestation Bangalore",
+    "Qatar certificate attestation",
+    "Qatar embassy attestation Bangalore",
+    "Qatar document attestation",
+    "Qatar attestation services",
+    "Qatar MOFA attestation",
+  ],
+};
 export default function HomePage() {
   return (
     <div>
