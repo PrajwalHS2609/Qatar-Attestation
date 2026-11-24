@@ -122,7 +122,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer-bottom">
+      <div className="footer-bottom">
         <p>© 2025 Qatar Attestation. All Rights Reserved.</p>
       </div>
     </footer>
